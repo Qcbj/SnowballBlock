@@ -1,0 +1,5 @@
+name: SnowballBlock
+version: 1.0
+author: Qcbj
+main: me.qcbj.SnowballBlock.Main
+api-version: 1.16
