@@ -29,7 +29,7 @@ public class Main extends JavaPlugin implements Listener {
         if (projectile instanceof Snowball && player instanceof Player) {
             ItemStack item = new ItemStack(player.getInventory().getItemInOffHand());
             Material itemType = item.getType();
-            if (itemType.isBlock() == true) {
+            if (itemType.isBlock()) {
                 int x = projectile.getLocation().getBlockX();
                 int y = projectile.getLocation().getBlockY();
                 int z = projectile.getLocation().getBlockZ();
