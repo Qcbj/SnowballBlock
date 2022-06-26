@@ -13,9 +13,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin implements Listener {
-
-    private Object Block;
-
+    
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
         System.out.println("SnowballBlock has been enabled!");
